@@ -87,7 +87,7 @@
 <header>
   <div>
     <h1>🇯🇵 Japanese Business Vocabulary</h1>
-    <p>Accenture Japan Project — SAP I&C Phase</p>
+    <p>Business Japanese for the workplace</p>
   </div>
   <span class="badge" id="last-updated"></span>
 </header>
@@ -232,7 +232,7 @@ const now = new Date();
 document.getElementById('last-updated').textContent =
   'Updated ' + now.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});
 document.getElementById('footer').textContent =
-  'Japanese Business Vocabulary · Accenture I&C Phase · ' + (RAW.business.length + RAW.katakana.length + RAW.phrases.length) + ' entries · Last synced ' + now.toLocaleDateString();
+  'Japanese Business Vocabulary · ' + (RAW.business.length + RAW.katakana.length + RAW.phrases.length) + ' entries · Last synced ' + now.toLocaleDateString();
 
 updateTabCounts();
 renderCurrent();
